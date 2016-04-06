@@ -1,0 +1,12 @@
+email: greg@gChambers.com
+fullname: 'Gregory Chambers'
+title: webMonkey
+state: enabled
+access:
+  admin:
+    login: 'true'
+    super: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$i1hhCzl5WL1b1EWNuZBkzeHuPZExTRvvkml3n/G0HIvhnwxOUGnvW
+language: en

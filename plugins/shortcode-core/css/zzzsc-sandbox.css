@@ -1,0 +1,19 @@
+.blueBox-wrapper {
+  width: 50%;
+  background-color: green;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueBox {
+  padding: 1em;
+  margin: 2em;
+  background-color: blue;
+}
+
+.bbox {
+  text-align: center;
+  color: white;
+}

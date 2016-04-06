@@ -1,0 +1,16 @@
+enabled: true
+from: test0@gChambers.com
+from_name: s1nga administrator
+to: test0@gChambers.com
+to_name: s1nga administrator
+mailer:
+  engine: mail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+    user: ''
+    password: ''
+  sendmail:
+    bin: '/usr/sbin/sendmail'
+content_type: text/html

@@ -1,0 +1,38 @@
+name: gregTheme-Antimatter
+version: 1.8.0
+description: "An exploration of the relative usefulness of using Git as a staging agent"
+icon: empire
+author:
+  name: Gregory Chambers
+  email: greg@gChambers.com
+  url: http://gChambers.com
+homepage:
+demo:
+keywords: grav, git, theme, core, modern, fast, responsive, html5, css3
+bugs: https://github.com/getgrav/grav-theme-antimatter/issues
+license: MIT
+
+form:
+#  validation: loose -- greg edit 2/11/2016
+  validation: strict
+  fields:
+    default_lang:
+      type: text
+      size: x-small
+      label: Default lang
+      default: 'en'
+      validate:
+        type: text
+
+dropdown.enabled:
+  type: toggle
+  label: Dropdown in navbar
+  highlight: 1
+  default: 1
+  options:
+    1: Enabled
+    0: Disabled
+  validate:
+    type: bool
+
+# Speical YMAL frontmatter "functions"

@@ -1,0 +1,42 @@
+enabled: true               # Activate the plugin
+built_in_css: true          # Use the default CSS
+
+name: 'Gregory Chambers'         # Your full name
+title: 'Graphic Designer'      # Your title/job
+description: 'Starting his design career in the era of ink-on-paper, Greg has worked within the disciplines of corporate identity, magazine art direction and advertising. He transitioned into animation and interface design during the heyday of interactive CD-ROM development. Subsequent advances in computer processing power allowed Greg to adopt digital-3D modeling and animation for video productions. Then the web became a "thing". Lessons learned from his print, interactive and animation days were combined to inform his passion for front-end web development. Greg has recently transitioned away from client work and is now pursuing his interests in front-end web technology. Currently residing in Chicago area with his wife, they dream of relocating to the mountains of North Carolina where Boon Ai can raise her chickens.'   # Tell us a bit about yourself
+
+picture_src: user/plugins/aboutme/assets/avatars/avatar_sam_120.png      # The path of your avatar, I recommend to use the admin plugin and go to the plugin configuration so you can upload your avatar there, the path will be filled for you.
+
+gravatar:
+  enabled: false                    # Enables gravatar, it will override picture_src option
+  email: "example@test.com"         # The email address your gravatar is attached to
+  size: 100                         # The size of your gravatar
+
+social_pages:
+  enabled: false                     # Enables social network pages
+  use_font_awesome: false           # Use FontAwesome, enable this option only if FontAwesome is not loaded by your theme or another plugin
+  pages:                            # Your social network pages here ! Change the order at will by changing the default position value. You can also change the font icon and the title
+    facebook:
+      icon: facebook-official
+      title: Facebook
+      position: 1
+    twitter:
+      icon: twitter
+      title: Twitter
+      position: 2
+    google_plus:
+      icon: google-plus-square
+      title: Google+
+      position: 3
+    github:
+      icon: github
+      title: GitHub
+      position: 4
+    linkedin:
+      icon: linkedin-square
+      title: LinkedIn
+      position: 5
+    instagram:
+      icon: instagram
+      title: Instagram
+      position: 6

@@ -1,0 +1,45 @@
+.blueBox-wrapper {
+  width: 50%;
+  background-color: green;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueBox {
+  padding: 1em;
+  margin: 2em;
+  background-color: blue;
+}
+
+.bbox {
+  text-align: center;
+  color: white;
+}
+
+.redBox-wrapper {
+  background-color: hsla(360, 86%, 50%, 0.7);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.redBox {
+  padding: 1em;
+  margin: 2em;
+  background-color: hsla(360, 86%, 27%, 1);
+}
+
+.greenBox-wrapper {
+  background-color: hsla(141, 86%, 19%, 1);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.greenBox {
+  padding: 1em;
+  margin: 2em;
+  background-color: hsla(141, 86%, 43%, 0.54);
+}

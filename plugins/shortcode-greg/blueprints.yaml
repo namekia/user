@@ -1,0 +1,31 @@
+name: Shortcode Greg
+version: 0.0.1
+description: "This plugin is a learning exercise for building Grav shortcodes"
+icon: code
+author:
+  name: Gregory Chambers
+  email: greg@gChambers.com
+  url: http://gChambers.com
+homepage: https://github.com/zzzzz
+demo: http://learn.zzzzz
+keywords: ui, plugin, tabs
+bugs: https://github.com/zzzzz/issues
+license: MIT
+
+dependencies:
+  - shortcode-core
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Enabled
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+

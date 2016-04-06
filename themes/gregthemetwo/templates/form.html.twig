@@ -1,0 +1,14 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<div class="blog-content-item grid pure-g-r">
+  <div id="item" class="block pure-u-2-3">
+      {{ content }}
+      {% include "forms/form.html.twig" %}
+  </div>
+  <div id="sidebar" class="block size-1-3 pure-u-1-3">
+       {#  {% include 'partials/sidebarCOPY.html.twig' with {'blog':page.parent}%} #}
+       {% include 'partials/aboutme.html.twig' %}
+      </div>
+</div>
+{% endblock %}

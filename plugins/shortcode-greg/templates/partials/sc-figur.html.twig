@@ -1,0 +1,15 @@
+<figure class="figur-wrapper clearfix">
+    <div class="figur {{ width }} {{ position }}" id="{{ hash ~ key }}">
+      <img src="{{ image }}" alt="captioned photo">
+      <cite>{{ cite }}</cite>
+        <div class="caption">{{ shortcode.getContent() }}</div>
+    </div>
+</figure>
+{# {{ image }} #}
+{# url({{ .media["image"].url }}) #}
+{# url({{ page.find(~).media[image].url }}) #}
+{# url({{ image }}.url) #}
+{# {{ page.media['{{ image }}'].html() }}  #}
+{# {{ page.media['{{ image }}'].url }}  #}
+{# {{ page.media[ "{{ image }}" ].url }} #}
+{# {{ page.media('image') }}  #}

@@ -1,5 +1,5 @@
 ---
-title: Markdown Basics Again 246
+title: Markdown Basics Again 2a4b6c
 date: 04/01/2016 13:55am
 author: Gregory Chambers
 # header_image: false

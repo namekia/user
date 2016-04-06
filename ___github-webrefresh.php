@@ -3,7 +3,7 @@ date_default_timezone_set('America/Chicago');
 ignore_user_abort(true);
 set_time_limit(0);
 
-$repo          = '~/public_html/';
+$repo          = '~/public_html/user';
 $branch        = 'master';
 $output        = array();
 

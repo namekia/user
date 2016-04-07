@@ -1,5 +1,5 @@
 ---
-title: Auto-Update Production Server with GitHub Webhook
+title: Auto-Update Webhook — Part 2
 date: 04/07/2016 11:06am
 author: Gregory Chambers
 # header_image: false
@@ -9,8 +9,6 @@ taxonomy:
 ---
 
 [attrb]unsplash[/attrb]
-
-##Auto-Update Webhook &mdash; Part 2
 
 ###Revised approach to configuration
 

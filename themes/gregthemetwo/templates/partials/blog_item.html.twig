@@ -35,6 +35,7 @@
                 {% set header_image_media = page.media.images|first %}
             {% endif %}
             {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+                <cite class="header-image">{{ page.header.header_image_cite }}</cite>
         {% endif %}
 
     </div>

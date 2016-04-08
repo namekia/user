@@ -3,14 +3,13 @@ title: Markdown Basics Again and Again 23
 date: 04/01/2016 13:55am
 author: Gregory Chambers
 # header_image: false
+header_image_cite: Dayne Topkin | unsplash
 taxonomy:
   category: blog
   tag: [grav, Markdown]
 ---
 
-[attrb]Dayne Topkin | unsplash[/attrb]
-
-## TLDR
+### TL:DR
 
 My primary text creation tool is SublimeText. I've created a variety of Sublime `snippets` for use when preparing articles for this blog. Here are a few of them:
 

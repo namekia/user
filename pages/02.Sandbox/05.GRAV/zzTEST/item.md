@@ -9,4 +9,4 @@ taxonomy:
   tag: [grav, test]
 ---
 
-this is a test. Will this folder be uploaded with webhook?
+THIS is a test. Will this folder be uploaded with webhook?

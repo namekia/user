@@ -1,7 +1,7 @@
 ---
 title: Random Color Rollovers
 date: 02/10/2016 03:36pm
-#banner: /images/cameraGirl.jpg
+header_image_cite: Michal Parzuchowski | unsplash
 author: Gregory Chambers
 taxonomy:
     category: blog
@@ -25,7 +25,7 @@ Another interesting feature of this demonstration is the use of flexbox placed w
 
 Divs are specified directly in the markdown area using plain HTML.
 
-``` html
+```html
 <div class="flex-wrap-circ-rndm">
   <div class='circ-rndm'></div>
   <div class='circ-rndm'></div>
@@ -38,7 +38,7 @@ Divs are specified directly in the markdown area using plain HTML.
 </div>
 ```
 
-``` js
+```js
 // Self-Executing Anonymous Function
 (function() {
 

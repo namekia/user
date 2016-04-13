@@ -1,13 +1,11 @@
 ---
 title: Manipulating Images Within a Post
-date: 14:19 01/18/2016
+date: 01/18/2016 2:19pm
 author: Gregory Chambers
-summary:
-  enabled: true
-  size: 0
+header_image_cite: istock photo
 taxonomy:
-    category: blog
-    tag: [images, grav]
+  category: blog
+  tag: [grav, images]
 ---
 
 Image files can be manipulated in a variety of ways from within Grav. It supports image manipulation by using a number of extensions added to the image link. The following examples will be an exploration of these methods.
@@ -35,7 +33,7 @@ OK, we're going to try making some thumbnails. Is this possible? Let's find out.
 
 Just for fun, I'm going to create an images folder outside of the article folder.
 
-![Camera Girl](/images/cameraGirl.jpg) 
+![Camera Girl](/images/cameraGirl.jpg)
 
 `![Camera Girl](/images/cameraGirl.jpg )`
 

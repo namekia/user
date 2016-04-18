@@ -44,8 +44,9 @@ form:
           type: file
           multiple: false
           label: Upload an image
-#          destination: '/user/data/my-nice-form/files'
-          destination: '@self'
+          # SEE /config/plugins/form.yaml
+#          destination: '/pages/03.contact/fileUploads'
+#          destination: '@self'
           accept: image/*
 
         - name: datetime
@@ -64,7 +65,7 @@ form:
         - name: g-recaptcha-response
           label: Captcha
           type: captcha
-          recatpcha_site_key: 6Lc-DxcTAAAAABD2gn3bLCB8L_21DxYgbJ_-3c6J
+          recaptcha_site_key: 6Lc-DxcTAAAAABD2gn3bLCB8L_21DxYgbJ_-3c6J
           recaptcha_not_validated: 'Captcha not valid!'
           validate:
             required: true

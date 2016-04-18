@@ -1,6 +1,7 @@
 enabled: true
 files:
   multiple: false
-  destination: '@self'
+  # destination: '@self/'
+  destination: 'user/data/gContactFormTest/fileUploads'
   accept:
     - image/*

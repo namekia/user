@@ -2,7 +2,7 @@
 title: gChambers Sandbox
 menu: Home
 blog_url: home
-banner: blueVan2400x600.jpg
+banner: blueVan1200x300.jpg
 body_classes: header-image fullwidth
 
 template: blog
@@ -28,4 +28,4 @@ pagination: true
 ---
 
 # Greg&rsquo;s Sandbox
-## Notes and Observations &mdash; Grav CMS
+## Notes on Front-End Web Development

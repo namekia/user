@@ -65,7 +65,7 @@ form:
         - name: g-recaptcha-response
           label: Captcha
           type: captcha
-          recaptcha_site_key: 6Lc-DxcTAAAAABD2gn3bLCB8L_21DxYgbJ_-3c6J
+          recatpcha_site_key: 6Lc-DxcTAAAAABD2gn3bLCB8L_21DxYgbJ_-3c6J
           recaptcha_not_validated: 'Captcha not valid!'
           validate:
             required: true

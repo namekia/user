@@ -125,19 +125,17 @@ h1 + h2 {
 // ++++++++++++++++++++!
 
 // ++++++++++++++++++++
-// Extends the core flexbox layout class of .block
-// Used to alter default layout of individual blog items (articles).
-// Since these pages no longer display a sidebar, we want the page width to display a max-width and float centered in the available width space.
+// Extend the core flexbox layout property .block
+// Sets a maximum width for single blog items (article) and centers the content in the available container width.
 // ++++++++++++++++++++
 .block-fullwidth {
   max-width: 990px;
   margin: auto;
 }
-// ++++++++++++++++++++
-
-
-
 // ++++++++++++++++++++!
+
+
+
 // ++++++++++++++++++++
 // Syntax Highlighting
 // Alter default handling of displayed code blocks.

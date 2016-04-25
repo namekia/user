@@ -17,10 +17,10 @@ content:
     pagination: true
 
 feed:
-    description: gChambers Grav Sandbox
+    description: Sample Blog Description
     limit: 10
 
 pagination: true
 ---
 
-### Sandbox for Exploring Grav Flat-File CMS
+### Sandbox for Learning Grav Flat-File CMS

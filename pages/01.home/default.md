@@ -1,8 +1,8 @@
----
+ ---
 title: gChambers Sandbox
 menu: Home
 blog_url: home
-banner: blueVan1200x300.jpg
+banner: blueVan2400x600.jpg
 body_classes: header-image fullwidth
 
 template: blog
@@ -21,11 +21,11 @@ content:
     pagination: false
 
 feed:
-    description: gChambers Sandbox
+    description: gChambers Sandbox Blog
     limit: 10
 
 pagination: true
 ---
 
 # Greg&rsquo;s Sandbox
-## Notes on Front-End Web Development
+## Notes and Observations &mdash; Grav CMS

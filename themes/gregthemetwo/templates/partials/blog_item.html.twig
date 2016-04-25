@@ -10,8 +10,6 @@
             <span>{{ page.date|date("d") }}</span>
             <em>{{ page.date|date("M") }}</em>
         </span>
-        {# 4/13/2016: greg picked up this line from Admin plugin #}
-        <b class="last-modified">modified: {{ page.date|nicetime }}</b>
         {% if page.header.link %}
             <h4>
                 {% if page.header.continue_link is not sameas(false) %}
@@ -37,7 +35,6 @@
                 {% set header_image_media = page.media.images|first %}
             {% endif %}
             {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
-                <cite class="header-image">{{ page.header.header_image_cite }}</cite>
         {% endif %}
 
     </div>

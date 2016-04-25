@@ -44,9 +44,8 @@ form:
           type: file
           multiple: false
           label: Upload an image
-          # SEE /config/plugins/form.yaml
-#          destination: '/pages/03.contact/fileUploads'
-#          destination: '@self'
+#          destination: '/user/data/my-nice-form/files'
+          destination: '@self'
           accept: image/*
 
         - name: datetime

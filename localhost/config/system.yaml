@@ -40,8 +40,6 @@ pages:
     special_chars:
       '>': gt
       '<': lt
-      # '--': 'ndash'
-      # '---': 'mdash'
   types:
     - txt
     - xml

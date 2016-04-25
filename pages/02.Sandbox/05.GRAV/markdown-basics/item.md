@@ -2,14 +2,16 @@
 title: Markdown Basics
 date: 04/01/2016 11:20am
 author: Gregory Chambers
-# header_image: false
-header_image_cite: Dayne Topkin | unsplash
+header_image: false
 taxonomy:
   category: blog
   tag: [grav, Markdown]
 ---
 
-#### TLDR
+![photo: musical score](DayneTopkin01-1200x400.jpg) <br>
+[attrb]Dayne Topkin | unsplash[/attrb]
+
+## TLDR
 
 My primary text creation tool is SublimeText. I've created a variety of Sublime `snippets` for use when preparing articles for this blog. Here are a few of them:
 
@@ -23,10 +25,6 @@ My primary text creation tool is SublimeText. I've created a variety of Sublime 
 # Main headings (H1) are _cool_.
 
 ## Sub-heads (H2) are not so bad either.
-
-### H3 Sub-heads (H3) are pretty impressive.
-
-#### H4 Sub-heads (H4) -- Not so Much.
 
 I **love you**.
 

@@ -5,7 +5,7 @@ author:
 blog:
   route: ''
 metadata:
-    description: 'Sandbox site dedicated to understanding of and practicing with GRAVcms'
+    description: 'Sandbox site dedicated to understanding and practice of proper front-end web design'
 taxonomies: [category,tag,month]
 
 summary:
@@ -31,14 +31,13 @@ menu:                                      # Sample Menu Example
 #      url: http://twitter.com/getgrav
 
 # ++++++++++++++++++++
-# COPYRIGHT module inspired by sora-article-blog-template
-# called in the footer area of /user/themes/gregthemetwo/templates/partials/base.html.twig
+# Items below display in footer area. They work in conjunction with /user/themes/gregthemetwo/templates/partials/base.html.twig
 # ++++++++++++++++++++
 copyright:
     text1: Copyright
-    startYear: 2012
-    url: http://s1nga.com
-    text2: gregCompanyName
+    startYear: 2014
+    url: http://gChambers.com
+    text2: gChambers
 
 # copyright2:
 #     text1: "additional Attribution"

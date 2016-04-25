@@ -1,9 +1,10 @@
 ---
-title: TEST:TEST webhook
+title: TEST:TEST:TEST webhook
 date: 04/20/2016 15:47pm
 author: Gregory Chambers
-# header_image: false
 header_image_cite: Dayne Topkin | unsplash
+
+# sidebar_display: false
 taxonomy:
   category: blog
   tag: [grav, test]

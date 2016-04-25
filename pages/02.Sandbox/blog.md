@@ -15,6 +15,8 @@ content:
         dir: desc
     limit: 5
     pagination: true
+    # hero_image_remove: true
+      # enabled: true
 
 feed:
     description: Sample Blog Description

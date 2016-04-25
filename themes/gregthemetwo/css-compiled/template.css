@@ -807,6 +807,10 @@ h1 + h2 {
 [type='date'] {
   width: 12rem; }
 
+.block-fullwidth {
+  max-width: 990px;
+  margin: auto; }
+
 pre {
   padding: 0; }
 

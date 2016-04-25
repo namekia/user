@@ -1,4 +1,4 @@
- ---
+---
 title: gChambers Sandbox
 menu: Home
 blog_url: home
@@ -7,24 +7,26 @@ body_classes: header-image fullwidth
 
 template: blog
 
+
 sitemap:
-    changefreq: monthly
-    priority: 1.03
+  changefreq: monthly
+  priority: 1.03
 
 content:
-    items:
-        '@taxonomy.category': blog
-    order:
-        by: date
-        dir: desc
-    limit: 2
-    pagination: false
+  items:
+    '@taxonomy.category': blog
+  order:
+    by: date
+    dir: desc
+  limit: 2
+  pagination: false
 
 feed:
-    description: gChambers Sandbox Blog
+    description: gChambers Blog
     limit: 10
 
 pagination: true
+
 ---
 
 # Greg&rsquo;s Sandbox

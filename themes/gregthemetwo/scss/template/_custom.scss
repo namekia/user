@@ -124,6 +124,18 @@ h1 + h2 {
 }
 
 // ++++++++++++++++++++!
+// Layout used when an individual blog item is selected
+// Extends the core flexbox layout rule named .block
+// Used on the single-item page to limit the content width
+// Centers the content block in available width
+// ++++++++++++++++++++
+.block-fullwidth {
+  max-width: 990px;
+  margin: auto;
+}
+// ++++++++++++++++++++
+
+// ++++++++++++++++++++!
 // ++++++++++++++++++++
 // Syntax Highlighting
 // Alter default handling of displayed code blocks.
@@ -137,7 +149,6 @@ pre {
   //   color: $text-darken;
   // }
 }
-
 // ++++++++++++++++++++!
 // ++++++++++++++++++++
 // About Me plugin

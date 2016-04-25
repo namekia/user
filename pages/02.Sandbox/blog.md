@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Sandbox
 blog_url: blog

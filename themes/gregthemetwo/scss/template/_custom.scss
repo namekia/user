@@ -122,6 +122,20 @@ h1 + h2 {
 [type='date'] {
   width: 12rem;
 }
+// ++++++++++++++++++++!
+
+// ++++++++++++++++++++
+// Extends the core flexbox layout class of .block
+// Used to alter default layout of individual blog items (articles).
+// Since these pages no longer display a sidebar, we want the page width to display a max-width and float centered in the available width space.
+// ++++++++++++++++++++
+.block-fullwidth {
+  max-width: 990px;
+  margin: auto;
+}
+// ++++++++++++++++++++
+
+
 
 // ++++++++++++++++++++!
 // ++++++++++++++++++++

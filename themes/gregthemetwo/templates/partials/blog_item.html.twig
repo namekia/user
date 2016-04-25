@@ -11,7 +11,7 @@
             <em>{{ page.date|date("M") }}</em>
         </span>
         {# 4/13/2016: greg picked up this line from Admin plugin #}
-        <b class="last-modified">{{ page.date|nicetime }}</b>
+        <b class="last-modified">modified: {{ page.date|nicetime }}</b>
         {% if page.header.link %}
             <h4>
                 {% if page.header.continue_link is not sameas(false) %}

@@ -24,4 +24,4 @@ pagination: true
 ---
 
 # Greg&rsquo;s Sandbox
-## Notes and Observations &mdash; Grav CMS
+## Notes and Observations on Front-End Website Design

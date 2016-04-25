@@ -5,7 +5,7 @@ author:
 blog:
   route: ''
 metadata:
-    description: 'Sandbox site dedicated to understanding of and practicing with GRAVcms'
+    description: 'Sandbox dedicated to exploring new methods of front-end website design'
 taxonomies: [category,tag,month]
 
 summary:
@@ -36,9 +36,9 @@ menu:                                      # Sample Menu Example
 # ++++++++++++++++++++
 copyright:
     text1: Copyright
-    startYear: 2012
-    url: http://s1nga.com
-    text2: gregCompanyName
+    startYear: 2014
+    url: http://gChambers.com
+    text2: gChambers
 
 # copyright2:
 #     text1: "additional Attribution"

@@ -1,4 +1,4 @@
- ---
+---
 title: gChambers Sandbox
 menu: Home
 blog_url: home
@@ -21,7 +21,7 @@ content:
     pagination: false
 
 feed:
-    description: gChambers Sandbox Blog
+    description: gChambers Sandbox
     limit: 10
 
 pagination: true

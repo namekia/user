@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Your custom SCSS should be written here...
 // ++++++++++++++++++++
 // Custom color variables for this site
@@ -494,3 +495,500 @@ figure {
 }
 
 // ++++++++++++++++++++!
+=======
+// Your custom SCSS should be written here...
+// ++++++++++++++++++++
+// Custom color variables for this site
+// Core file: /user/themes/antimatter/scss/configuration/template/_colors.scss
+// $core-accent: hsla(23, 88%, 43%, 1); ORANGE!
+// ++++++++++++++++++++
+$logo-yello: hsla(39, 96%, 56%, 1);
+$text-darken: darken($core-text, 20);
+$header-gray: hsla(0, 0%, 70%, .75);
+$header-gray-shadow: darken($header-gray, 30);
+$alert-red: hsla(350, 100%, 30%, 1);
+$white: hsla(360, 100%, 100%, 1);
+$accent-orange: hsla(23, 88%, 43%, 1);
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// General -- improve the handling of subheads.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 2.3rem;
+}
+// Note specific over-ride for the home page banner
+// "adjacent sibling" combinator affects the H2 directly following H1
+// add extra room above suhbead (H2) directly below main site title (H1)
+h1 + h2 {
+  margin-top: 1rem;
+}
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Over-ride default Antimatter behavior of full-browser-width
+// #sb-site,
+// .sb-site-container,
+// .sb-slidebar,
+// body,
+// html {
+//   max-width: 1200px;
+//   margin: 0 auto !important;
+// }
+
+// Darkens the background color of the header bar after the page has been scrolled. Default color was white.
+// The styles below are modifications of core to position and color the header and logo area
+#header {
+  background-color: $header-gray;
+  box-shadow: 0 5px 10px 0 $header-gray-shadow;
+  // left: 0;
+  #logo {
+    margin-top: 1rem;
+
+    background: url('../images/gBug_round.svg') no-repeat;
+    background-size: contain;
+    h3 {
+      margin-left: 90px;
+      text-transform: none;
+    }
+  }
+  #navbar {
+    max-width: 1000px;
+  }
+}
+
+.scrolled#header {
+  background-color: $header-gray;
+  box-shadow: 0 5px 10px 0 $header-gray-shadow;
+  #logo {
+    margin-top: 0;
+    h3 {
+      margin-left: 60px;
+      text-transform: none;
+    }
+  }
+  #navbar a {
+    color: $accent-orange;
+  }
+}
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Copyright in Footer
+// ++++++++++++++++++++
+.copyright-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  text-align: left;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// FORMS
+// ++++++++++++++++++++
+.alert {
+  margin-bottom: 1rem;
+  padding: .5rem;
+
+  color: $alert-red;
+  border: 1px solid $alert-red;
+  border-radius: 4px;
+  background: $logo-yello;
+  b {
+    color: $text-darken;
+  }
+}
+
+// Move the spans apart so that they appear as individual units
+.checkboxes label:nth-child(n+2) {
+  margin-right: 2em;
+}
+
+[type='checkbox'],
+[type='file'] {
+  margin-bottom: .85rem;
+}
+
+[type='date'] {
+  width: 12rem;
+}
+
+// ++++++++++++++++++++!
+// Layout used when an individual blog item is selected
+// Extends the core flexbox layout rule named .block
+// Used on the single-item page to limit the content width
+// Centers the content block in available width
+// ++++++++++++++++++++
+.block-fullwidth {
+  max-width: 990px;
+  margin: auto;
+}
+// ++++++++++++++++++++
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Syntax Highlighting
+// Alter default handling of displayed code blocks.
+// Change color background, padding and font color
+// NOTE; THIS OVER-RIDE IS NO LONGER NECESSAY SINCE I STATRED USING THE HIGHLIGHT PLUGIN WITH THE CODEPEN-EMBED THEME
+// ++++++++++++++++++++
+pre {
+  padding: 0;
+  // background: $logo-yello;
+  // code {
+  //   color: $text-darken;
+  // }
+}
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// About Me plugin
+// ++++++++++++++++++++
+.about-me img {
+  font-family: 'Open Sans', Helvetica;
+  max-width: 100%;
+  max-height: 250px;
+
+  // -webkit-box-shadow: 0 2px 5px 0 $header-gray, 0 2px 10px 0 $header-gray;
+  box-shadow: 0 2px 5px 0 $header-gray, 0 2px 10px 0 $header-gray;
+}
+.about-me h4 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-top: 0;
+}
+.about-me h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin: 0;
+}
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// General-purpose utility classes -- primarily for use with
+// images within content areas.
+// ++++++++++++++++++++
+.float-right {
+  float: right;
+  margin-left: 1.5rem;
+}
+.float-left {
+  float: left;
+  margin-right: 1.5rem;
+}
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Figures with captions. Unfortunately, they are hard-coded to 1/3 column width.
+// Specifying a width allows the use of float-left and float-right.
+// ++++++++++++++++++++
+.fig-wrap {
+  // width: 33%;
+  // margin: 0;
+  // padding: 0;
+  // float: right;
+  // background: lighten($logo-yello, 30);
+}
+
+.wdth-1-3 {
+  width: 33%;
+
+  background: lighten($logo-yello, 30);
+}
+
+figure {
+  p {
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0;
+  }
+  cite {
+    font-size: .7rem;
+    font-style: italic;
+    line-height: 0;
+    margin-bottom: 1rem;
+  }
+  figcaption {
+    font-size: .9rem;
+    line-height: 1.2rem;
+    margin: 0;
+    padding: 0 1rem 1rem;
+  }
+}
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Simple Image Gallery
+// ++++++++++++++++++++
+.simplegallery li {
+  display: flex;
+  list-style-type: none;
+
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.image-surround {
+  flex: 1 0 auto;
+}
+
+.image-info {
+  padding-left: 1em;
+
+  flex: 1 1 70%;
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0 0 .5em;
+  }
+  p {
+    font-size: .95rem;
+    line-height: 1.25rem;
+    margin: 0;
+  }
+}
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Simple CSS Slider
+// ++++++++++++++++++++
+@keyframes slidy {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+// body {
+//   margin: 0;
+// }
+#slider {
+  overflow: hidden;
+  max-height: 30rem;
+  margin-top: -3rem;
+  figure {
+    position: relative;
+    left: 0;
+    width: 500%;
+    margin: 0;
+    animation: 30s slidy infinite;
+    img {
+      float: left;
+      width: 20%;
+    }
+  }
+}
+
+// #slider figure img {
+//   float: left;
+//   width: 20%;
+// }
+// #slider figure {
+//   position: relative;
+//   left: 0;
+//   width: 500%;
+//   margin: 0;
+//   animation: 30s slidy infinite;
+// }
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Fix display description text in banner on blog-section list-page
+// ++++++++++++++++++++
+.blog-header h3 {
+  color: $white;
+}
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Animation clip which re-creates the loading-screen  sequence of MGS5
+// ++++++++++++++++++++
+.main {
+  display: flex;
+
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  width: 80%;
+  margin: auto;
+
+  flex-flow: row wrap;
+  p:first-child {
+    font-size: 1.25em;
+    margin-top: 2em;
+  }
+}
+
+.btn-wrap {
+  width: 80%;
+  margin: auto;
+
+  align-self: flex-start;
+  flex: 0 1 auto;
+}
+
+.circ-wrap {
+  position: relative;
+  visibility: hidden;
+  width: 470px;
+  height: 320px;
+  margin-top: 90px;
+
+  flex: 0 1 auto;
+}
+
+.txt-loading {
+  font-size: 170%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+
+.txt-numbers {
+  font-size: 270%;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  display: block;
+  width: auto;
+  text-align: right;
+}
+
+.txt-chckpnt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.5em;
+  font-weight: 900;
+  position: absolute;
+  top: 230px;
+  left: 10px;
+}
+
+.circ-arcs {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 239px;
+  height: 239px;
+
+  background: url('../../../../user/pages/images/circArcs.png') no-repeat;
+}
+
+.circ-gradient {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 239px;
+  height: 239px;
+
+  background: url('../../../../user/pages/images/circGradient.png') no-repeat;
+}
+
+.matrix-wrap {
+  position: relative;
+  display: flex;
+  width: 130px;
+  height: 140px;
+  margin-top: 90px;
+
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.matrix-sqr {
+  width: 60px;
+  height: 60px;
+
+  background-color: $header-gray;
+}
+
+.sqr01,
+.sqr02,
+.sqr03,
+.sqr04 {
+  visibility: hidden;
+}
+
+@media (max-width: 600px) {
+  .matrix-wrap {
+    margin-top: 12px;
+  }
+  .circ-wrap {
+    margin-top: 0;
+  }
+}
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// Random Color Effect on Rollover
+// ++++++++++++++++++++
+.flex-wrap-circ-rndm {
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+
+  background-color: $header-gray;
+
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.circ-rndm {
+  width: 90px;
+  height: 90px;
+  margin: 12px;
+
+  border-radius: 50%;
+  background-color: $text-darken;
+}
+
+// ++++++++++++++++++++!
+// ++++++++++++++++++++
+// These two were supplied out of the box. Helps control the display of grav-lightslider gallery
+.grav-lightslider {
+  .lSSlideOuter {
+    .lSPager.lSpg {
+      > li a {
+        z-index: 1;
+      }
+    }
+  }
+}
+
+#body > script:first-child + .grav-lightslider {
+  margin-top: -3rem;
+}
+
+// ++++++++++++++++++++!
+>>>>>>> origin/master
